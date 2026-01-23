@@ -58,7 +58,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
-            SOURCE_REPO=https://github.com/ngttech/msg-viewer.git
+            SOURCE_REPO=https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ngttech/msg-viewer.git
             SOURCE_REF=main
 
       - name: Image digest

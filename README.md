@@ -2,6 +2,8 @@
 
 Docker deployment configuration for [MSG Viewer](https://github.com/molotochok/msg-viewer), a tool to read Outlook .msg files in your browser without sending data to external servers.
 
+> Updated: Configured for ngttech deployment
+
 ## Overview
 
 This repository contains:
